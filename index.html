@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <h2>Login Form</h2>
+
+        <form autocomplete="off" id="loginForm">
+
+
+            <!-- Email Field -->
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <small id="error-Emessage">Email error!</small>
+            </div>
+
+            <!-- Password Field -->
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+                <small id="error-pmessage">Password Error!</small>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" id="submit">Submit</button>
+            
+        </form>
+          <div id="result-message">
+            <p>Login Successful!</p>
+          </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

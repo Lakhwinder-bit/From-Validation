@@ -1,0 +1,95 @@
+/* Basic page style */
+body {
+    font-family: Arial, sans-serif;
+    background: #8fe0d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 350px;
+
+    background: #f8f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 15px rgb(89, 81, 81);
+}
+
+/* Form Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(11, 10, 10);
+}
+
+/* Form control styling */
+.form-control {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+}
+
+/* Input field */
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+/* Input focus effect */
+input:focus {
+    border-color: #4CAF50;
+}
+
+/* Error message */
+#error-Emessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+#error-pmessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+}
+/* Submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   margin: 12px 0px;
+
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#result-message {
+    color:#45a049;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    display: none;
+}
